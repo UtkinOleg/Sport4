@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.11.08 12:44:50.453.bdsgroup,C:\Documents and Settings\Комп\Мои документы\Borland Studio Projects\ProjectGroup1.bdsgroup=C:\Documents and Settings\Комп\Мои документы\Спорт 4\ProjectGroup1.bdsgroup</Transaction>
+    <Transaction>2011.11.08 13:12:21.515.bdsgroup,C:\Documents and Settings\Комп\Мои документы\Спорт 4\ProjectGroup1.bdsgroup=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport4 group.bdsgroup</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="s4.exe"/>
+	</Default.Personality>
+</BorlandProject>

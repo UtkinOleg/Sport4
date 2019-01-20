@@ -1,0 +1,168 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{3743027E-A484-40BE-A0A5-34E6A237A9F7}</ProjectGuid>
+			<MainSource>s4.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>12.0</ProjectVersion>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>s4.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UsePackage>vcl;rtl;vclx;dbrtl;vcldb;adortl;dbxcds;dbexpress;vclib;ibxpress;xmlrtl;vclactnband;inet;IntrawebDB_80_100;Intraweb_80_100;vclie;inetdbbde;inetdbxpress;IndyCore;IndySystem;dclOfficeXP;VclSmp;soaprtl;dsnap;IndyProtocols;bdertl;teeui;teedb;tee;vcldbx;dsnapcon;websnap;webdsnap</DCC_UsePackage>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_UnitSearchPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;$(BDS)\units;$(BDS)\vcl;$(BDS)\rtl;$(BDS)\db;$(BDS)\app\ui\res;$(BDS)\app\ed\res;$(BDS)\app\design;$(BDS)\qt;$(BDS)\clx;D:\PROJECTS\Components\rvpkg2006\1-TRichView\Trial\2006;D:\PROJECTS\Components\rvpkg2006\3-ScaleRichView\Trial\2006;D:\PROJECTS\Components\rvpkg2006\2-RichViewActions;D:\PROJECTS\Components\rvpkg2006\4-SRVControls;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_K>false</DCC_K>
+			<DCC_N>true</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+			<DCC_E>false</DCC_E>
+			<DCC_F>false</DCC_F>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="s4.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="Main.pas">
+				<Form>MainForm</Form>
+			</DCCReference>
+			<DCCReference Include="ChildWin.pas">
+				<Form>MDIChild</Form>
+			</DCCReference>
+			<DCCReference Include="about.pas">
+				<Form>AboutBox</Form>
+			</DCCReference>
+			<DCCReference Include="Spr.pas">
+				<Form>FormSpr</Form>
+			</DCCReference>
+			<DCCReference Include="OKCNHLP1.pas">
+				<Form>OKHelpBottomDlg</Form>
+			</DCCReference>
+			<DCCReference Include="Man.pas">
+				<Form>ManForm</Form>
+			</DCCReference>
+			<DCCReference Include="MenFormDlg.pas">
+				<Form>FIODlg</Form>
+			</DCCReference>
+			<DCCReference Include="SelectSport.pas">
+				<Form>SelectSportDlg</Form>
+			</DCCReference>
+			<DCCReference Include="RazrForm.pas">
+				<Form>RazrDlg</Form>
+			</DCCReference>
+			<DCCReference Include="DiagUnit.pas">
+				<Form>DiagForm</Form>
+			</DCCReference>
+			<DCCReference Include="OutputUnit.pas">
+				<Form>OutputForm</Form>
+			</DCCReference>
+			<DCCReference Include="RegUnit.pas">
+				<Form>RegForm</Form>
+			</DCCReference>
+			<DCCReference Include="OptionUnit.pas">
+				<Form>OptionForm</Form>
+			</DCCReference>
+			<DCCReference Include="ProgressUnit.pas">
+				<Form>ProgressForm</Form>
+			</DCCReference>
+			<DCCReference Include="SelectUnit.pas">
+				<Form>SelectForm</Form>
+			</DCCReference>
+			<DCCReference Include="DateUnit.pas">
+				<Form>DateForm</Form>
+			</DCCReference>
+			<DCCReference Include="C:\Program Files (x86)\Embarcadero\RAD Studio\7.0\ObjRepos\en\DelphiWin32\OKCANCL1.PAS">
+				<Form>OKBottomDlg</Form>
+			</DCCReference>
+			<DCCReference Include="HTMLUnit.pas">
+				<Form>HTMLForm</Form>
+			</DCCReference>
+			<DCCReference Include="BaseUnit.pas">
+				<Form>BaseForm</Form>
+			</DCCReference>
+			<DCCReference Include="ServerUnit.pas">
+				<Form>ServerForm</Form>
+			</DCCReference>
+			<DCCReference Include="C:\Program Files (x86)\Embarcadero\RAD Studio\7.0\source\Indy\Indy10\Protocols\IdFTPListParseBase.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">s4.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="RunParams">SPORT4 A</Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">4</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">1</VersionInfo>
+						<VersionInfo Name="Build">1</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Сибирь-Софт</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">4.0.1.1</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion"/>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

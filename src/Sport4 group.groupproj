@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{B687D4D9-55FA-4CB7-868B-0210C7783DF8}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="s4.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="sport4\sport4.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="s4">
+			<MSBuild Projects="s4.dproj"/>
+		</Target>
+		<Target Name="s4:Clean">
+			<MSBuild Targets="Clean" Projects="s4.dproj"/>
+		</Target>
+		<Target Name="s4:Make">
+			<MSBuild Targets="Make" Projects="s4.dproj"/>
+		</Target>
+		<Target Name="sport4">
+			<MSBuild Projects="sport4\sport4.dproj"/>
+		</Target>
+		<Target Name="sport4:Clean">
+			<MSBuild Targets="Clean" Projects="sport4\sport4.dproj"/>
+		</Target>
+		<Target Name="sport4:Make">
+			<MSBuild Targets="Make" Projects="sport4\sport4.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="s4;sport4"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="s4:Clean;sport4:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="s4:Make;sport4:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

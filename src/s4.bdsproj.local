@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.04.20 17:37:06.609.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Spr.pas</Transaction>
+    <Transaction>2009.04.20 17:37:06.609.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Spr.dfm</Transaction>
+    <Transaction>2009.04.21 14:31:23.078.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Man.pas</Transaction>
+    <Transaction>2009.04.21 14:31:23.078.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Man.dfm</Transaction>
+    <Transaction>2009.04.21 14:52:13.953.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\OKCNHLP.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\MenFormDlg.pas</Transaction>
+    <Transaction>2009.04.21 14:52:13.953.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\OKCNHLP.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\MenFormDlg.dfm</Transaction>
+    <Transaction>2009.04.21 15:02:01.812.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\OKCANCL2.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\SelectSport.pas</Transaction>
+    <Transaction>2009.04.21 15:02:01.812.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\OKCANCL2.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\SelectSport.dfm</Transaction>
+    <Transaction>2009.04.21 15:36:34.250.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\OKCNHLP.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\RazrForm.pas</Transaction>
+    <Transaction>2009.04.21 15:36:34.250.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\OKCNHLP.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\RazrForm.dfm</Transaction>
+    <Transaction>2009.04.22 19:15:57.859.bdsproj,C:\Documents and Settings\Комп\Мои документы\Спорт 4\MDIAPP.bdsproj=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport.bdsproj</Transaction>
+    <Transaction>2009.04.22 19:16:28.109.bdsproj,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport.bdsproj=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport2.bdsproj</Transaction>
+    <Transaction>2009.05.16 10:30:07.984.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\DiagUnit.pas</Transaction>
+    <Transaction>2009.05.16 10:30:07.984.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\DiagUnit.dfm</Transaction>
+    <Transaction>2009.05.25 12:34:45.312.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\OutputUnit.pas</Transaction>
+    <Transaction>2009.05.25 12:34:45.312.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\OutputUnit.dfm</Transaction>
+    <Transaction>2009.05.27 23:03:16.578.bdsproj,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport2.bdsproj=C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport3.bdsproj</Transaction>
+    <Transaction>2009.06.01 11:32:23.109.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\RegUnit.pas</Transaction>
+    <Transaction>2009.06.01 11:32:23.140.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\RegUnit.dfm</Transaction>
+    <Transaction>2009.06.12 23:37:04.353.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit2.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\OptionUnit.pas</Transaction>
+    <Transaction>2009.06.12 23:37:04.353.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit2.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\OptionUnit.dfm</Transaction>
+    <Transaction>2009.06.29 10:59:37.359.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit2.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\ProgressUnit.pas</Transaction>
+    <Transaction>2009.06.29 10:59:37.359.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit2.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\ProgressUnit.dfm</Transaction>
+    <Transaction>2009.07.17 10:49:22.087.bdsproj,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Sport3.bdsproj=C:\Documents and Settings\Комп\Мои документы\Спорт 4\s3.bdsproj</Transaction>
+    <Transaction>2009.07.24 08:43:15.437.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit2.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\UnitPreview.pas</Transaction>
+    <Transaction>2009.07.24 08:43:15.437.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit2.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\UnitPreview.dfm</Transaction>
+    <Transaction>2009.08.27 13:04:52.406.PAS,c:\program files\borland\bds\4.0\ObjRepos\DelphiWin32\TABPGDLG.PAS=</Transaction>
+    <Transaction>2009.08.27 13:04:52.421.dfm,c:\program files\borland\bds\4.0\ObjRepos\DelphiWin32\TABPGDLG.dfm=</Transaction>
+    <Transaction>2009.12.02 00:08:13.890.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\SelectUnit.pas</Transaction>
+    <Transaction>2009.12.02 00:08:13.890.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\SelectUnit.dfm</Transaction>
+    <Transaction>2011.12.02 20:02:04.859.pas,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.pas=C:\Documents and Settings\Комп\Мои документы\Спорт 4\DateUnit.pas</Transaction>
+    <Transaction>2011.12.02 20:02:04.859.dfm,C:\Documents and Settings\Комп\Мои документы\Спорт 4\Unit1.dfm=C:\Documents and Settings\Комп\Мои документы\Спорт 4\DateUnit.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
